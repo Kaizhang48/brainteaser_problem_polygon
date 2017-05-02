@@ -1,6 +1,7 @@
 # brainteaser_problem_polygon
 A group of graphic designers is creating logos. Each of the logos is a polygon. Determine how many different logos were created by these artists.
 
+![image]https://github.com/Kaizhang48/brainteaser_problem_polygon/blob/master/f82.gif
 
 The user inserts the logos in the following way: First the user inserts a positive integer n greater than or equal to 3. After this integer
 
