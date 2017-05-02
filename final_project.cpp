@@ -1,7 +1,4 @@
-// final_project.cpp : Defines the entry point for the console application.
-//
-
-#include "stdafx.h"
+//written by KAIZHANG
 #include<vector>
 #include<map>
 #include<cmath>
