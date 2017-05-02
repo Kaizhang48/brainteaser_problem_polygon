@@ -1,12 +1,10 @@
 //written by KAIZHANG
 #include<vector>
-#include<map>
 #include<cmath>
 #include<set>
 #include<iostream>
 #include<vector>
 #include<algorithm>
-#include<list>
 using namespace std;
 class Point {
 	friend ostream& operator<<(ostream& os, const Point&);
