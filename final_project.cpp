@@ -3,8 +3,7 @@
 #include<cmath>
 #include<set>
 #include<iostream>
-#include<vector>
-#include<algorithm>
+
 using namespace std;
 class Point {
 	friend ostream& operator<<(ostream& os, const Point&);
