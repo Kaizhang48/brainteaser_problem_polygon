@@ -98,9 +98,9 @@ int numberofpoints(){
 
 class polygon{
 private:
-	int num;
-	vector<Point> vertex;
-	vector<Point> vct;
+	int num;//numbers of vetex
+	vector<Point> vertex; //cordinate of vertex
+	vector<Point> vct;//every edges as vector
 public:
 	polygon(const int& a) :num(a),vertex(vector<Point>(a)),vct(vector<Point>(a)) {
 		int count = 0;
@@ -126,7 +126,6 @@ public:
 				}
 			}
 		}
-
 		for (int i = 0; i < num; ++i) {
 			int next = ((i + 1) == num) ? 0 : i + 1;
 			Point p = vertex[i];
@@ -146,7 +145,6 @@ public:
 		return vct;
 	}
 };
-
 int operator ==(const polygon& a, const polygon& b) {
 	int flag = 0;
 	vector<Point> av= a.getvct();
